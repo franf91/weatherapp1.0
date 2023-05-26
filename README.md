@@ -11,13 +11,13 @@ This weather app project is front-end only. It was done to learn how to work wit
 
 For a more detailed explanation of steps 2-6:https://getbootstrap.com/docs/5.3/getting-started/parcel/
 
-##Usage
-###API Key Setup
+## Usage
+### API Key Setup
 1. Obtain a free API Key from https://openweathermap.org/api.
 2. Need to create a config.js file in js directory as I did not include in repository.
 3. Add the following line to config.js: 'export const apiKey = "Your Api Key";'
 
 I did the following to avoid hardcoding the key value in main.js file.
 
-##Demo
+## Demo
 
