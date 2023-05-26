@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="scss/styles.scss" />
+		<script type="module" src="js/main.js"></script>
+		<script
+			src="https://kit.fontawesome.com/91cb2706b9.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Weather APP 1.O</title>
+	</head>
+	<body>
+		<!-- Background container -->
+		<div class="background">
+			<div class="d-flex justify-content-center mt-5">
+				<!-- Card container -->
+				<div class="card col-lg-6 col-md-6 col-sm-10">
+					<div class="card-body">
+						<div class="d-flex justify-content-center">
+							<!-- Search bar container -->
+							<div class="me-2 searchBar">
+								<input
+									id="searchInput"
+									class="form-control custom-placeholder"
+									type="search"
+									placeholder="Search For City"
+									aria-label="Search For City"
+								/>
+							</div>
+							<!-- Search button container -->
+							<div class="searchBtn">
+								<button id="searchButton" class="btn" type="button">
+									<i class="fas fa-search"></i>
+								</button>
+							</div>
+						</div>
+						<!-- Error container -->
+						<div
+							id="errorContainer"
+							class="p-0 text-center"
+							style="color: rgb(255, 255, 255)"
+						>
+							<div id="errorIcon"></div>
+							<div id="errorMessage" class="d-none p-3 errorMsg">
+								Please Enter Valid City Name
+							</div>
+						</div>
+						<!-- Main content container -->
+						<div
+							id="mainContainer"
+							class="d-none"
+							style="color: rgb(255, 255, 255)"
+						>
+							<div id="weatherIcon" class="text-center"></div>
+							<div id="weatherTemp" class="text-center mainTemp"></div>
+							<div id="cityName" class="text-center cityName"></div>
+							<div id="weatherMain" class="text-center weatherDesc"></div>
+							<div class="row minMaxTemp">
+								<div id="weatherTempMax" class="col text-end"></div>
+								<div id="weatherTempMin" class="col"></div>
+							</div>
+							<div id="moreInfo" class="d-none row p-2">
+								<div class="col text-end">
+									<i class="fa-solid fa-water fa-2x"></i>
+								</div>
+								<div class="col">
+									<div id="humidity" class="row small-letter"></div>
+									<div class="row xsmall-letter">Humidity</div>
+								</div>
+								<div class="col text-end">
+									<i class="fa-solid fa-wind fa-2x"></i>
+								</div>
+								<div class="col">
+									<div id="windSpeed" class="row small-letter"></div>
+									<div class="row xsmall-letter">Wind Speed</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

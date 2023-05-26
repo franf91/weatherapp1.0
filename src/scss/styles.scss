@@ -1,0 +1,73 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+
+$placeholder-opacity:0.5;
+// mixin for background-color
+@mixin bodyColor($body-color:rgb(64, 60, 61)){
+    background-color:$body-color;
+}
+// mixin for font-size
+@mixin fontSize($size-text:0.8rem){
+    font-size:$size-text;
+}
+// mixin for border-radius
+@mixin borderRadius($border-radius:0.35rem){
+    border-radius: $border-radius;
+}
+
+html{
+    @include bodyColor;
+}
+
+.background{
+    @include bodyColor;
+}
+.cardContainer{
+    @include bodyColor($body-color:rgb(6, 111, 122));
+}
+.card-body{
+    @include bodyColor($body-color:rgb(6, 111, 122));
+    @include borderRadius;
+}
+.searchBar{
+    @include bodyColor($body-color:rgb(255, 255, 255));
+    @include borderRadius($border-radius:0.5rem) 
+}
+.searchBtn{
+    @include bodyColor($body-color:rgb(255, 255, 255));
+    @include borderRadius($border-radius:1.5rem);
+}
+
+.custom-placeholder{
+    opacity:$placeholder-opacity; 
+}
+.custom-placeholder::placeholder{
+    @include fontSize;
+}
+.weatherDesc{
+    @include fontSize($size-text:1.5rem);
+}
+.minMaxTemp{
+    @include fontSize($size-text:1.5rem);
+}
+.xsmall-letter{
+    
+    @include fontSize($size-text:0.7rem);
+}
+.small-letter{
+    
+    @include fontSize;
+}
+.icon-padding{
+    padding: 0;
+}
+.mainTemp{
+    @include fontSize($size-text:5rem);
+}
+.cityName{
+    @include fontSize($size-text:3rem);
+}
+.errorMsg{
+    @include fontSize($size-text:1.2rem);
+}
