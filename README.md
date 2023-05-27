@@ -7,9 +7,11 @@ If query is successful the software will display an icon representing the weathe
 
 ![successful](screenshots/successful_query.png)
 
-If query is unsuccessful an error icon and message will display. The version of the api used is the free tier therefore weather may not be real time.
+If query is unsuccessful an error icon and message will display.
 
 ![error](screenshots/error_msg.png)
+
+The version of the api used is the free tier therefore weather may not be real time.
 
 ## Instructions
 1. Clone the repository
