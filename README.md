@@ -32,4 +32,4 @@ For a more detailed explanation of steps 2-6: https://getbootstrap.com/docs/5.3/
 I did the following to avoid hardcoding the key value in main.js file.
 
 ## Demo
-Check out the live demo of the project at: https://cityweatherapp1.netlify.app/
+Check out the live demo of the project at: https://1cityweatherapp.netlify.app/
