@@ -116,7 +116,7 @@ function fetchURL(){
         cityName.textContent = capitalizeFirstLetter(city);
         weatherMain.textContent = cityCondition;
         weatherTempMax.textContent = "H:" + tempMax + "°";
-        weatherTempMin.textContent = "H:" + tempMin + "°";
+        weatherTempMin.textContent = "L:" + tempMin + "°";
         humidity.textContent = humidityValue + " %"
         windSpeed.textContent = Math.round(convertMStoKMH(windSpeedValue)) + " km/h";
         
