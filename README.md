@@ -21,7 +21,7 @@ The version of the api used is the free tier therefore weather may not be real t
 5. to configure Parcel add the following to the scripts object in package.json: ' "start": "parcel serve src/index.html --public-url / --dist-dir dist"' 
 6. to start Parcel run the following command in the root directory of project:'npm start'
 
-For a more detailed explanation of steps 2-6:https://getbootstrap.com/docs/5.3/getting-started/parcel/
+For a more detailed explanation of steps 2-6: https://getbootstrap.com/docs/5.3/getting-started/parcel/
 
 ## Usage
 ### API Key Setup
