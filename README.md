@@ -3,11 +3,13 @@ This weather app project is front-end only. It was done to learn how to work wit
 
 The weather app allows user to search for current temperature of any city/country provided by the openweathermap api. 
 
-If query is sucessful the software will display an icon representing the weather(example : sunny,rain,cloudy,snow), the current temperature in celsius, the city/country name, the weather condition(clouds,snow,clear,rain), the humidity in percentage,and the wind speed in km/h. 
+If query is successful the software will display an icon representing the weather(example : sunny,rain,cloudy,snow), the current temperature in celsius, the city/country name, the weather condition(clouds,snow,clear,rain), the humidity in percentage,and the wind speed in km/h. 
 
-
+![successful](screenshots/successful_query.png)
 
 If query is unsuccessful an error icon and message will display. The version of the api used is the free tier therefore weather may not be real time.
+
+![error](screenshots/error_msg.png)
 
 ## Instructions
 1. Clone the repository
